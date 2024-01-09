@@ -37,6 +37,7 @@ const CheckoutClient = () => {
         body: JSON.stringify({
           items: cartProducts,
           payment_intent_id: paymentIntent,
+          currency: "gbp",
         }),
       })
         .then((res) => {
