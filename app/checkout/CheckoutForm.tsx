@@ -75,7 +75,6 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({
       <AddressElement
         options={{
           mode: "shipping",
-          allowedCountries: ["GB"],
         }}
       />
       <h2 className="font-semibold mt-4 mb-2">Payment Information</h2>
