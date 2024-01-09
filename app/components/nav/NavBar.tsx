@@ -38,9 +38,11 @@ const NavBar = async () => {
               href="/"
               className={`${redressed.className} font-bold text-2xl`}
             >
-              E-Shop
+              Ree-Store
             </Link>
-            <div className="hidden md:block"><SearchBar/></div>
+            <div className="hidden md:block">
+              <SearchBar />
+            </div>
             <div className="flex items-center gap-8 md:gap-12">
               <CartCount />
               <UserMenu currentUser={currentUser} />
@@ -48,7 +50,7 @@ const NavBar = async () => {
           </div>
         </Container>
       </div>
-      <Categories/>
+      <Categories />
     </div>
   );
 };
