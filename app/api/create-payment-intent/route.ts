@@ -14,9 +14,7 @@ const calculateOrderAmount = (items: CartProductType[]) => {
     return acc + itemTotal;
   }, 0);
 
-  const price: any = Math.floor(totalPrice);
-
-  return price;
+  return Math.round(totalPrice * 100); // Round to the nearest whole number
 };
 
 export async function POST(request: Request) {
