@@ -53,6 +53,7 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({
         elements,
         redirect: "if_required",
       })
+
       .then((result) => {
         if (!result.error) {
           toast.success("Checkout Success");

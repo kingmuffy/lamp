@@ -32,7 +32,7 @@ export async function POST(request: Request) {
   const orderData = {
     user: { connect: { id: currentUser.id } },
     amount: total,
-    currency: "usd",
+    currency: "GBP",
     status: "pending",
     deliveryStatus: "pending",
     paymentIntentId: payment_intent_id,
@@ -88,6 +88,6 @@ export async function POST(request: Request) {
     return NextResponse.json({ paymentIntent });
   }
 
-   // Return a default response (e.g., an error response) if none of the conditions are met
-   return NextResponse.error();
+  // Return a default response (e.g., an error response) if none of the conditions are met
+  return NextResponse.error();
 }
