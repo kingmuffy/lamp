@@ -14,7 +14,9 @@ const calculateOrderAmount = (items: CartProductType[]) => {
     return acc + itemTotal;
   }, 0);
 
-  return Math.round(totalPrice * 100); // Round to the nearest whole number
+  const price: any = Math.floor(totalPrice);
+
+  return price;
 };
 
 export async function POST(request: Request) {
@@ -30,7 +32,7 @@ export async function POST(request: Request) {
   const orderData = {
     user: { connect: { id: currentUser.id } },
     amount: total,
-    currency: "gbp",
+    currency: "GBP",
     status: "pending",
     deliveryStatus: "pending",
     paymentIntentId: payment_intent_id,
