@@ -38,6 +38,15 @@ const Footer = () => {
             <p>
               &copy; {new Date().getFullYear()} Ree~Store. All rights reserved
             </p>
+            <p className="your-class-name">
+              <Link
+                href="https://www.linkedin.com/in/omamofe-ojei-0301121a6/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                designed by Kingmuffy{" "}
+              </Link>
+            </p>
           </div>
           <FooterList>
             <h3 className="text-base font-bold mb-2">Follow Us</h3>
