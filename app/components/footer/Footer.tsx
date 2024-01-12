@@ -24,14 +24,14 @@ const Footer = () => {
           </FooterList>
           <FooterList>
             <h3 className="text-base font-bold mb-2">Customer Service</h3>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Shipping Policy</Link>
-            <Link href="#">Returns & Exchanges</Link>
-            <Link href="#">FAQs</Link>
+            <Link href="/contact">Contact Us</Link>
+            <Link href="/shipping">Shipping Policy</Link>
+            <Link href="/refund">Returns & Exchanges</Link>
+            <Link href="terms">Terms of Servive</Link>
           </FooterList>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h3 className="text-base font-bold mb-2">About Us</h3>
-            <p className="mb-2 ">
+            <p className="mb-2 w-64">
               At our electronics store, we are dedicated to providing the latest
               and greatest devices and accessories to our customers.
             </p>
@@ -53,7 +53,7 @@ const Footer = () => {
               </Link>
             </div>
           </FooterList>
-          <img src="/frf.jpg" alt="Logo" className="w-64 h-24 " />
+          <img src="/frf.jpg" alt="Logo" className="w-80 lg:w-64 h-24  " />
         </div>
       </Container>
     </footer>

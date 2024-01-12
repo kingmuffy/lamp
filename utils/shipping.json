@@ -1,0 +1,30 @@
+{
+  "generalTerms": {
+    "title": "Shipping Times",
+    "content": "All orders take between 3-7 business days. If you have not received your order within 7 business days, please contact us at"
+  },
+  "useLicense": {
+    "title": "Order Processing:",
+    "content": "Orders are processed and dispatched within 1-2 business days of confirmation and take an additional 3-7 days to reach the customer."
+  },
+  "disclaimer": {
+    "title": "Shipping Methods",
+    "content": "We utilise reliable carriers to ensure timely and secure delivery."
+  },
+  "paymentsAndRefunds": {
+    "title": "Shipping Locations",
+    "content": "We offer shipping to various destinations, both domestically and internationally.\nWe ship to all parts of the UK.\nWe ship to all parts of the Netherlands."
+  },
+  "services": {
+    "title": "Tracking Information",
+    "content": "Tracking details will be provided once the order is dispatched."
+  },
+  "additionalInfo": {
+    "title": "Shipping Costs",
+    "content": "Shipping costs, inclusive of purchase unless stated otherwise, are calculated based on the destination and weight of the package."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "content": "If you have any questions or concerns regarding shipping, please contact us at"
+  }
+}

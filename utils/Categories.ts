@@ -14,18 +14,12 @@ export const categories = [
     label: "Laptop",
     icon: AiOutlineLaptop,
   },
-  {
-    label: "Desktop",
-    icon: AiOutlineDesktop,
-  },
+
   {
     label: "Watch",
     icon: MdWatch,
   },
-  {
-    label: "Tv",
-    icon: MdTv,
-  },
+
   {
     label: "Accesories",
     icon: MdOutlineKeyboard,
