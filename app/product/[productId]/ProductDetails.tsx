@@ -97,7 +97,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
       return { ...prev, quantity: --prev.quantity };
     });
   }, [cartProduct]);
-  const shouldRenderImageDiv = product.id === "659d3edcd7229f8f6a87903e";
+  const shouldRenderImageDiv = product.id === "65a13e4abad661b2a0c0a451";
 
   return (
     <div>
@@ -170,38 +170,30 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
           )}
         </div>
       </div>
-      <div>
-        <div className="w-full md:w-1/2 mt-4 md:mt-0 px-4">
-          {shouldRenderImageDiv && (
-            <div className="flex flex-wrap gap-4">
-              <img
-                src="/IMG_2660.jpg"
-                alt="secure"
-                className="w-32 h-32 rounded-md"
-              />
-              <img
-                src="/IMG_2661.jpg"
-                alt="secure"
-                className="w-32 h-32 rounded-md"
-              />
-              <img
-                src="/IMG_2652.jpg"
-                alt="secur"
-                className="w-32 h-32 rounded-md"
-              />
-              <img
-                src="/IMG_2653.jpg"
-                alt="secu"
-                className="w-32 h-32 rounded-md"
-              />
-              <img
-                src="/IMG_2654.jpg"
-                alt="sec"
-                className="w-32 h-32 rounded-md"
-              />
-            </div>
-          )}
-        </div>
+      <div></div>
+      <div className="w-full mt-4 md:mt-0 py-20 px-4">
+        {shouldRenderImageDiv && (
+          <div className="flex flex-wrap gap-4 md:grid md:grid-cols-3">
+            <img
+              src="/IMG_2660.jpg"
+              alt="secure"
+              className="w-full  rounded-md"
+            />
+            <img
+              src="/IMG_2661.jpg"
+              alt="secure"
+              className="w-full  rounded-md"
+            />
+            <img
+              src="/IMG_2652.jpg"
+              alt="secur"
+              className="w-full  rounded-md"
+            />
+            <img src="/IMG_2653.jpg" alt="secu" className="w-full rounded-md" />
+            <img src="/IMG_2654.jpg" alt="sec" className="w-full rounded-md" />
+            <img src="/4.jpg" alt="sec" className="w-full h-64 rounded-md" />
+          </div>
+        )}
       </div>
     </div>
   );
