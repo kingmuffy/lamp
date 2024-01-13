@@ -51,13 +51,13 @@ const Footer = () => {
           <FooterList>
             <h3 className="text-base font-bold mb-2">Follow Us</h3>
             <div className="flex gap-2 ">
-              <Link href="#">
+              <Link href="https://www.instagram.com/reewebservices?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
                 <MdFacebook size={24} />
               </Link>
-              <Link href="#">
+              <Link href="https://www.instagram.com/reewebservices?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
                 <AiFillTwitterCircle size={24} />
               </Link>
-              <Link href="#">
+              <Link href="https://www.instagram.com/reewebservices?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
                 <AiFillInstagram size={24} />
               </Link>
             </div>
