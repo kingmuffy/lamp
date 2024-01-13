@@ -97,7 +97,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
       return { ...prev, quantity: --prev.quantity };
     });
   }, [cartProduct]);
-  const shouldRenderImageDiv = product.id === "65a13e4abad661b2a0c0a451";
+  const shouldRenderImageDiv = product.id === "65a1d55ca9b405a11890e132";
 
   return (
     <div>

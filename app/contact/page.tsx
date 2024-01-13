@@ -56,8 +56,7 @@ const ContactPage = () => {
         <div className="bg-white shadow rounded-lg py-4 p-6">
           <h2 className="text-xl font-semibold mb-4">Priority Contact</h2>
           <p>
-            <strong>Company Address:</strong> Ree services , 6 wooddrive,
-            london, United Kingdom
+            <strong>Company Address:</strong> Ree ~ Store london, United Kingdom
           </p>
           <p className="mt-3">
             <strong>Contact us:</strong> +44 07449591183
