@@ -38,7 +38,7 @@ const NavBar = async () => {
               href="/"
               className={`${redressed.className} font-bold text-2xl`}
             >
-              Ree-Store
+              Ree~Store
             </Link>
             <div className="hidden md:block">
               <SearchBar />
