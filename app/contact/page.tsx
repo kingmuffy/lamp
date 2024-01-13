@@ -10,7 +10,7 @@ const ContactPage = () => {
           Problem with your order? Not satisfied? Whatever your concern, our
           dedicated customer care team of over 30 customer service reps are
           ready to help you whenever you find yourself in distress. Whatever the
-          issue, we are here to help as soon as possible. At Buy iFollow, the
+          issue, we are here to help as soon as possible. At Ree~Store, the
           customer comes first!
         </p>
         <p className="mb-6">
