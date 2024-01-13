@@ -9,7 +9,7 @@ interface ButtonProps {
   small?: boolean;
   custom?: string;
   icon?: IconType;
-  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void; // Make onClick optional
 }
 
 const Button: React.FC<ButtonProps> = ({
